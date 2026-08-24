@@ -1,13 +1,20 @@
-from app.core.config import LLM_API_KEY, MODEL_NAME
+from fastapi import FastAPI
+
+from app.api.documents import router as document_router
 
 
-def smoke_check():
+app = FastAPI(
+    title="GenAI Assistant",
+    description="Document management API",
+    version="1.0.0",
+)
+
+
+app.include_router(document_router)
+
+
+@app.get("/health")
+def health_check():
     return {
-        "status": "ok",
-        "model": MODEL_NAME,
-        "api_key_loaded": bool(LLM_API_KEY),
+        "status": "ok"
     }
-
-
-if __name__ == "__main__":
-    print(smoke_check())
