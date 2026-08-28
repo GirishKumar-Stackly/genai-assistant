@@ -154,3 +154,30 @@ As the project grows, additional unit, integration, API, retrieval, evaluation, 
 * [x] README setup instructions documented
 
 Further functionality will be implemented according to the 20-day practical delivery roadmap.
+
+## Prompt Version Comparison
+
+### Results
+
+| Metric | V1 | V2 |
+|---|---:|---:|
+| Pass Rate | 30% | 100% |
+| Average Latency | 3652.68 ms | 1950.82 ms |
+| Passed Cases | 3/10 | 10/10 |
+| Failed Cases | 7/10 | 0/10 |
+
+### Decision
+
+**Preferred Version: V2**
+
+### Reason
+
+V2 produced valid structured JSON for all 10 fixed test
+cases and reduced average latency compared with V1.
+
+V1 had multiple JSON parsing failures, while V2 successfully
+passed validation for all summary, extraction, and classification
+cases.
+
+Therefore, V2 is selected as the preferred prompt version based
+on the fixed test dataset.

@@ -1,0 +1,182 @@
+[
+  {
+    "case_id": "summary_001",
+    "task": "summary",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 4891.07,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "summary_002",
+    "task": "summary",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3081.4,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "summary_003",
+    "task": "summary",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 4723.58,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "summary_004",
+    "task": "summary",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3527.22,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "summary_005",
+    "task": "summary",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 2792.78,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "extraction_001",
+    "task": "extraction",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3593.38,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "extraction_002",
+    "task": "extraction",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3097.29,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "extraction_003",
+    "task": "extraction",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3684.98,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "classification_001",
+    "task": "classification",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3526.21,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "classification_002",
+    "task": "classification",
+    "prompt_version": "v1",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 3608.84,
+    "validation_result": "failed",
+    "failure_category": "JSON_PARSE_FAILURE"
+  },
+  {
+    "case_id": "summary_001",
+    "task": "summary",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1719.91,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "summary_002",
+    "task": "summary",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1484.1,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "summary_003",
+    "task": "summary",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 2552.9,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "summary_004",
+    "task": "summary",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1599.02,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "summary_005",
+    "task": "summary",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 2707.23,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "extraction_001",
+    "task": "extraction",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1815.91,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "extraction_002",
+    "task": "extraction",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1893.34,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "extraction_003",
+    "task": "extraction",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 2058.12,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "classification_001",
+    "task": "classification",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1720.31,
+    "validation_result": "passed",
+    "failure_category": null
+  },
+  {
+    "case_id": "classification_002",
+    "task": "classification",
+    "prompt_version": "v2",
+    "model": "inclusionai/ling-3.0-flash-fin:free",
+    "latency_ms": 1957.39,
+    "validation_result": "passed",
+    "failure_category": null
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "case_id": "summary_001",
+    "task": "summary",
+    "input": "Python is a high-level programming language used for web development, automation, data analysis, and artificial intelligence.",
+    "expected_structure": {
+      "summary": "non_empty_string"
+    },
+    "expected_values": {}
+  },
+  {
+    "case_id": "summary_002",
+    "task": "summary",
+    "input": "FastAPI is a modern Python web framework designed for building APIs. It provides automatic API documentation and uses Pydantic for data validation.",
+    "expected_structure": {
+      "summary": "non_empty_string"
+    },
+    "expected_values": {}
+  },
+  {
+    "case_id": "summary_003",
+    "task": "summary",
+    "input": "Machine learning allows computers to learn patterns from data. Supervised learning uses labelled data, while unsupervised learning works with data without predefined labels. Machine learning is commonly used in recommendation systems, fraud detection, image recognition, and forecasting.",
+    "expected_structure": {
+      "summary": "non_empty_string"
+    },
+    "expected_values": {}
+  },
+  {
+    "case_id": "summary_004",
+    "task": "summary",
+    "input": "The company announced a new product. The announcement did not specify the product name, release date, price, or target customers.",
+    "expected_structure": {
+      "summary": "non_empty_string"
+    },
+    "expected_values": {
+      "must_not_invent_facts": true
+    }
+  },
+  {
+    "case_id": "summary_005",
+    "task": "summary",
+    "input": "",
+    "expected_structure": {
+      "summary": "non_empty_string"
+    },
+    "expected_values": {
+      "input_type": "empty"
+    }
+  },
+  {
+    "case_id": "extraction_001",
+    "task": "extraction",
+    "input": "John Sharma joined Google as a Software Engineer in Bangalore on 15 January 2025.",
+    "expected_structure": {
+      "name": "string",
+      "company": "string",
+      "role": "string",
+      "location": "string",
+      "joining_date": "string"
+    },
+    "expected_values": {
+      "name": "John Sharma",
+      "company": "Google",
+      "role": "Software Engineer",
+      "location": "Bangalore",
+      "joining_date": "15 January 2025"
+    }
+  },
+  {
+    "case_id": "extraction_002",
+    "task": "extraction",
+    "input": "Priya works as a Data Analyst at Stackly.",
+    "expected_structure": {
+      "name": "string",
+      "company": "string",
+      "role": "string",
+      "location": "string",
+      "joining_date": "string"
+    },
+    "expected_values": {
+      "name": "Priya",
+      "company": "Stackly",
+      "role": "Data Analyst",
+      "location": null,
+      "joining_date": null
+    }
+  },
+  {
+    "case_id": "extraction_003",
+    "task": "extraction",
+    "input": "Rahul joined ABC Technologies. He works in the engineering department.",
+    "expected_structure": {
+      "name": "string",
+      "company": "string",
+      "role": "string",
+      "location": "string",
+      "joining_date": "string"
+    },
+    "expected_values": {
+      "name": "Rahul",
+      "company": "ABC Technologies",
+      "role": null,
+      "location": null,
+      "joining_date": null
+    }
+  },
+  {
+    "case_id": "classification_001",
+    "task": "classification",
+    "input": "The new software uses artificial intelligence to automatically detect objects in images.",
+    "expected_structure": {
+      "category": "technology|science|business|other",
+      "reason": "non_empty_string"
+    },
+    "expected_values": {
+      "category": "technology"
+    }
+  },
+  {
+    "case_id": "classification_002",
+    "task": "classification",
+    "input": "The company reported a 20 percent increase in revenue after expanding its operations into three new markets.",
+    "expected_structure": {
+      "category": "technology|science|business|other",
+      "reason": "non_empty_string"
+    },
+    "expected_values": {
+      "category": "business"
+    }
+  }
+]
